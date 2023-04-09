@@ -1,0 +1,20 @@
+{
+    "code_color": {
+        "ident": [174, 214, 241],
+        "number": [187, 143, 206],
+        "string": [0, 255, 0],
+        "symbol": [255, 128, 128],
+        "keyword": [255, 123, 114],
+        "builtin_fn": [33, 97, 140],
+        "fun": [218,219,153,255],
+        "error": [144, 238, 144],
+        "comment": [160, 160, 160],
+        "other": [255, 255, 255]
+    },
+    "save_btn": false,
+    "save_and_run": true,
+    "save_on_close": true,
+    "code_font_size": 17.0,
+    "console_font_size": 15.0,
+    "betty_exe_path": "betty.exe"
+}
