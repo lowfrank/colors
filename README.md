@@ -1,4 +1,4 @@
-# colors: an IDE for the betty language
+# colors: an IDE for the [betty programming language](https://github.com/lowfrank/betty)
 
 As the description clearly states, colors is an IDE for the betty programming language. You can open, modify, save and run betty files inside it, with the aid of syntax highlighting and a nice UI. Through the `settings.json` file, you can modify the appearance of the application and make it yours!
 To run colors, you must have the following prerequisites:
