@@ -1,5 +1,5 @@
-///! Little logging library in case the deserialization of the data in `settings.json`
-///! fails and other scenarios.
+//! Little logging library in case the deserialization of the data in `settings.json`
+//! fails and other scenarios.
 use std::fmt;
 use std::fs;
 use std::io::Write;

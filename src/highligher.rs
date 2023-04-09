@@ -29,9 +29,9 @@ pub enum TokenType {
     Other,
 }
 
-// The struct responsible for the analysis of the code editor text. It receives
-// as input the text as a sequence of characters and returns a sequence of tokens
-// out of it.
+/// The struct responsible for the analysis of the code editor text. It receives
+/// as input the text as a sequence of characters and returns a sequence of tokens
+/// out of it.
 pub struct Highligher {
     source: VecDeque<char>,
     current_char: Option<char>,
