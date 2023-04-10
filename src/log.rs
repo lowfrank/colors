@@ -1,5 +1,5 @@
-//! Little logging library in case the deserialization of the data in `settings.json`
-//! fails and other scenarios.
+//! Little logging library in case the deserialization of `settings.json` fails and other scenarios.
+
 use std::fmt;
 use std::fs;
 use std::io::Write;
@@ -7,9 +7,10 @@ use std::io::Write;
 /// The format used by [`chrono`] to convert a [`chrono::DateTime`] to a [`String`].
 const DATETIME_LOG_FORMAT: &str = "%Y-%m-%d %H:%M:%S:%3f";
 
+/// Path to the log file
 const LOG_PATH: &str = "log\\log.log";
 
-/// Level of the log
+/// Log level
 #[derive(Debug)]
 enum Level {
     Warning,
