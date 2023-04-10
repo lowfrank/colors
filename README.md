@@ -4,5 +4,11 @@ As the description clearly states, colors is an IDE for the [betty programming l
 To run colors, you must have the following prerequisites:
   - A `betty.exe` file, possibly compiled with the `--release` flag (don't forget to write its path to `settings.json`).
   - Rust installed with version 1.65 and above.
+Compile the program with the following command:
+```
+cargo +stable b --release
+```
 
 The app logs unrecoverable errors (such as missing `settings.json`) and warning in the `log.log` file.
+
+Note that colors is only available for the Windows environment at the moment.
